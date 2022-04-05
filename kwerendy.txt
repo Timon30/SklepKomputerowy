@@ -1,0 +1,4 @@
+zapytanie 1: SELECT imie, nazwisko FROM uczen;
+zapytanie 2: SELECT imie, nazwisko FROM uczen WHERE id = 2;
+zapytanie 3: SELECT przedmiot_id FROM ocena WHERE uczen_id = 2;
+zapytanie 4: SELECT AVG(przedmiot_id) FROM ocena WHERE uczen_id = 2;
